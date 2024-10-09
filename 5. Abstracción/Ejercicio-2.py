@@ -31,7 +31,7 @@ class EmpleadoPorHoras(Empleado):
 
 # Uso de las clases
 empleado1 = EmpleadoTiempoCompleto(3000)
-print(f"El salario del empleado Mateo a tiempo completo es de: {empleado1.calcular_salario()}")
+print(f"El salario del empleado a tiempo completo es de: {empleado1.calcular_salario()}")
 
 empleado2 = EmpleadoPorHoras(120, 15)
-print(f"El salario del empleado Miguel por horas es de: {empleado2.calcular_salario()}")
+print(f"El salario del empleado por horas es de: {empleado2.calcular_salario()}")
