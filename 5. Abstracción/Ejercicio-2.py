@@ -7,9 +7,6 @@ from abc import ABC, abstractmethod
 
 # Clase abstracta Empleado
 class Empleado(ABC):
-    def _init_(self, nombre):
-        self.nombre = nombre
-    
     @abstractmethod
     def calcular_salario(self):
         pass
